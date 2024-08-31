@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body class=" h-full w-full "> 
+  <!-- text-[#53AF03] -->
+        <!--  bg-gradient-to-r from-[#20002c] to-[#cbb4d4] h-screen-->
+          <!-- Start Header -->
+          <header class="">
+            <nav class=" w-full h-14 md:h-20 flex items-center justify-between px-5 md:px-20 fixed bg-gray-50 z-50">
+               <div class="w-20 py-5 text-[#53AF03] text-3xl font-bold ">
+                <a href="#home">
+                    <span class="text-black">Ain</span>trie
+                </a>
+
+               </div>
+
+               <div>
+                <ul class="hidden lg:flex items-center space-x-6 ">
+                    <li><a href="#home" class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Home</a></li>
+                    <li><a href="#features"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Features</a></li>
+                    <li><a href="#testimonials"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Testimonial</a></li>
+                    <li><a href="#pricing"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Pricing</a></li>
+                    <li><a href="#blog"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Blog</a></li>
+                    <li><a href="#contact"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Contact</a></li>
+                    <li><button class="btn" >Free Trial</button></li>
+                </ul>
+               </div>
+               <!-- Mobile header -->
+               <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                <i class='bx bx-menu text-3xl'></i>
+               </div>
+               <div id="menu" class="hidden bg-black  h-[100vh] w-[60vw] absolute inset-0 z-50" >
+                <ul class="h-full grid place-items-center py-10 text-white">
+                    <li><a id="hlink" href="#home" class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Home</a></li>
+                    <li><a id="hlink" href="#features"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Features</a></li>
+                    <li><a id="hlink" href="#testimonials"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Testimonial</a></li>
+                    <li><a id="hlink" href="#pricing"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Pricing</a></li>
+                    <li><a id="hlink" href="#blog"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Blog</a></li>
+                    <li><a id="hlink" href="#contact"class="hover:text-[#53AF03] ease-in duration-200 cursor-pointer">Contact</a></li>
+                    <li><button id="navbtn"  class="bg-[#53AF03] px-9 py-3 rounded-md capitalize font-bold text-white hover:bg-white hover:text-[#53AF03] hover:ease-in hover:duration-500 border-2 hover:border-lime-50 cursor-pointer">Free Trial</button></li>
+                </ul>
+               </div>
+            </nav>
+          </header>
+          <!-- End Header -->
+           <!-- main Start -->   
+            <main>
+              <!-- Home -->
+              <section id="home" class="relative pt-10">
+                <div class="blob1"></div>
+                <div class="blob2"></div>
+                <div class="container py-10 md:py-20">
+                  <div class="flex flex-col items-center z-20 md:flex-row">
+                    <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                      <h1 class="title">
+                        Empower Your Institution with Customized Websites
+                      </h1>
+                      <p class="leading-relaxed pb-10">
+                        Create a professional and personalized website effortlessly, whether you prefer customizable templates or a unique design from scratch. Our intuitive admin app centralizes student management, record-keeping, and enquiry handling, allowing you to streamline administrative processes and save valuable time.
+                      </p>
+                      <button class="btn">Download App</button>
+                    </div>
+                    
+                    <div class="md:w-1/2">
+                      <img src="./img/1.png" alt="">
+                    </div>
+                  </div>
+
+                </div>
+
+              </section>
+              <!-- TECHNICAL BENEFITS -->
+               <section id="benefits">
+                <div class="container py-10 md:py-20">
+      
+                  <div class="text-center  mb-20" >
+                    <h4 class="text-lg font-bold text-[#53AF03] mb-4">
+                      TECHNICAL BENEFITS
+                    </h4>
+                    <h1 class="text-4xl font-bold mb-4 md:text-3xl">
+                      Why Aintrie ?
+                    </h1>
+                    <p class="text-lg md:text-xl ">
+                      Build, Customize, and Manage Your Institution's Online Presence effortlessly.
+                    </p>
+                  </div>
+                  <!-- card -->
+                  <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-10 lg:gap-8 px-4 sm:px-6 lg:px-8">
+                    <!-- 1 -->
+                    <div class="border-[1.9px] border-solid border-[#2f322b4a] hover:border-[#53AF03] p-4 text-center rounded transition-all ease-out duration-500 hover:shadow-2xl flex flex-col justify-between ">
+                      <h3 class="text-xl font-bold pb-4 hover:text-[#53AF03] hover:ease-in hover:duration-500 ">
+                        For Hostels, Coaching Centers,
+                      </h3>
+                      <p class="mb-4">
+                        Whether you run a hostel, coaching center, or any educational institution, our platform adapts to your needs. Tailored features for specialized management.
+                      </p>
+                       <button class=" bg-[#53AF03] py-2 px-6 rounded-2xl font-bold text-white hover:text-[#53AF03] hover:ease-in hover:duration-500 border-2 hover:border-[#d9ffb8] hover:shadow-lg cursor-pointer hover:bg-white  ">
+                        Click Here
+                       </button>
+                    </div>
+                    <!-- 2 -->
+                    <div class="border-[1.9px] border-solid border-[#2f322b4a] hover:border-[#53AF03] p-4 text-center rounded transition-all ease-out duration-500 hover:shadow-2xl flex flex-col justify-between ">
+                      <h3 class="text-xl font-bold pb-4 hover:text-[#53AF03] hover:ease-in hover:duration-500 ">
+                        24/7 Support
+                      </h3>
+                      <p class="mb-4">
+                        Our experienced support engineers are available round the clock for any resolution of query.
+                      </p>
+                      <button class=" bg-[#53AF03] py-2 px-8 rounded-2xl font-bold text-white hover:text-[#53AF03] hover:ease-in hover:duration-500 border-2 hover:border-[#d9ffb8] hover:shadow-lg cursor-pointer hover:bg-white">
+                        Click Here
+                       </button>
+                    </div>
+                    <!-- 3 -->
+                    <div class="border-[1.9px] border-solid border-[#2f322b4a] hover:border-[#53AF03] p-4 text-center rounded transition-all ease-out duration-500 hover:shadow-2xl flex flex-col justify-between ">
+                      <h3 class="text-xl font-bold pb-4 hover:text-[#53AF03] hover:ease-in hover:duration-500 ">
+                        Data Security
+                      </h3>
+                      <p class="mb-4">
+                        Implementation of "Zero Trust" access layer for authentication & authorisation of canvas application.
+                      </p>
+                      <button class=" bg-[#53AF03] py-2 px-8 rounded-2xl font-bold text-white hover:text-[#53AF03] hover:ease-in hover:duration-500 border-2 hover:border-[#d9ffb8] hover:shadow-lg cursor-pointer hover:bg-white">
+                        Click Here
+                       </button>
+                    </div>
+                    <!-- 4 -->
+                    <div class="border-[1.9px] border-solid border-[#2f322b4a] hover:border-[#53AF03] p-4 text-center rounded transition-all ease-out duration-500 hover:shadow-2xl flex flex-col justify-between ">
+                      <h3 class="text-xl font-bold pb-4 hover:text-[#53AF03] hover:ease-in hover:duration-500 ">
+                        Customized Website
+                      </h3>
+                      <p class="mb-4">
+                        Create a unique online identity for your institution. Choose from our customizable templates or start from scratch. No coding required!
+                      </p>
+                      <button class=" bg-[#53AF03] py-2 px-8 rounded-2xl font-bold text-white hover:text-[#53AF03] hover:ease-in hover:duration-500 border-2 hover:border-[#d9ffb8] hover:shadow-lg cursor-pointer hover:bg-white">
+                        Click Here
+                       </button>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </section>
+
+               <!-- MODULES & FEATURES -->
+                <section id="features" class="relative">
+                  <!-- container 1 -->
+                  <div class="container py-6 md:py-20 relative">
+                    <div class="h-72 w-72 bg-[#cce50d] absolute top-64 md:left-48 rounded-full blur-2xl opacity-40 overflow-hidden -z-10"></div>
+                   <div class="text-center  mb-20" >
+                     <h4 class="text-lg font-bold text-[#53AF03] mb-4">
+                       MODULES & FEATURES
+                     </h4>
+                     <h1 class="text-4xl font-bold mb-4 md:text-3xl">
+                       Wide array of modules
+                     </h1>
+                     <p class="text-lg md:text-xl md:pl-24 md:pr-24">
+                       Our intuitive admin app lets you manage students, track records, and handle enquiries with ease. Stay organized and in control.
+                     </p>
+                   </div>
+                   <div class="flex flex-col md:flex-row">
+                     <div class="md:w-1/2 pb-10">
+                       <img src="./img/2.png" alt="">
+                     </div>
+                     <div class="text-center mb-12 md:text-left md:mx-10 md:w-1/2 ">
+                       <h1 class="title">
+                         Manage your Website
+                       </h1>
+                       <p class=" pb-10 pt-10 leading-9">
+                         Make a lasting impression with professionally designed websites. Choose from customizable templates or start from scratch. Your institution deserves a unique online identity, and we make it happen.
+                         <br>
+                        <span class="mark"><i class='bx bx-chevron-right text-white'></i></span>Provide website  builder,allow you to create a professional looking website
+                         <br>
+                         <span class="mark"><i class='bx bx-chevron-right text-white'></i></span>Showcase your courses, faculty, facilities and more...
+                         <br>
+                         <span class="mark"><i class='bx bx-chevron-right text-white'></i></span>With Aintrie you give your institude the online presence it deserves
+                         <br>
+                       </p>
+                     </div>
+                   </div>
+
+                 </div>
+                   <!-- container 2 -->
+                  <div class="container py-6 md:py-20 relative">
+                    <div class="h-64 w-64 md:h-72 md:w-72 bg-[#256e78] absolute bottom-40 right-20 rounded-full blur-2xl opacity-30 overflow-hidden -z-10"></div>
+                   <div class="flex flex-col md:flex-row">
+                     <div class="text-center mb-12 md:text-left md:mx-10 md:w-1/2 ">
+                       <h1 class="title">
+                        Manage Insights
+                       </h1>
+                       <p class=" pb-10 pt-10 leading-9">
+                        Our support team is dedicated to your success. Whether you have a question about website customization or need assistance with administrative tools, we're here to help. Your success is our priority
+                         <br>
+                        <span class="mark"><i class='bx bx-chevron-right text-white'></i></span>Innovative feature of Automatic Payment Link
+                         <br>
+                         <span class="mark"><i class='bx bx-chevron-right text-white'></i></span>Multiple reports including dues, payments etc
+                         <br>
+                         <span class="mark"><i class='bx bx-chevron-right text-white'></i></span> One click re-concilation for online fee payments
+                         <br>
+                       </p>
+                     </div>
+                     <div class="md:w-1/2 pb-10">
+                      <img src="./img/3.png" alt="">
+                     </div>
+                    </div>
+
+                  </div>
+                   <!-- container 3 -->
+                   <div class="container py-6 md:py-20 relative">
+                    <div class="blob1"></div>
+                   <div class="flex flex-col md:flex-row">
+                      <div class="md:w-1/2 pb-10">
+                      <img src="./img/4.svg" alt="">
+                      </div>
+                     <div class="text-center mb-12 md:text-left md:mx-10 md:w-1/2 ">
+                       <h1 class="title">
+                        User-Friendly Platform
+                       </h1>
+                       <p class=" pb-10 pt-10 leading-9">
+                        Navigate our platform effortlessly. No technical skills required. We prioritize simplicity, ensuring that both website customization and administrative tasks are user-friendly
+                         <br>
+                        <span class="mark"><i class='bx bx-chevron-right text-white'></i></span> Intuitive interface for easy navigation
+                         <br>
+                         <span class="mark"><i class='bx bx-chevron-right text-white'></i></span>Accessible to users with varying technical expertise
+                         <br>
+                         <span class="mark"><i class='bx bx-chevron-right text-white'></i></span> Efficient and straightforward website and admin panel management
+                         <br>
+                       </p>
+                     </div>
+                    </div>
+
+                  </div>                
+
+                </section>
+                <!-- Testimonials -->
+                 <section id="testimonials">
+                  <div class="container py-10 md:py-20">
+                    <div class="text-center  mb-20" >
+                      <h4 class="text-lg font-bold text-[#53AF03] mb-4">
+                        Testimonials
+                      </h4>
+                      <h1 class="text-4xl font-bold mb-4 md:text-3xl">
+                        We have worked with thousands of amazing people
+                      </h1>
+                      
+                    </div>
+                    <!-- review container -->
+                     <div class="mt-8">
+                      <div class="flex items-center justify-center flex-wrap">
+                        <img src="./img/user/1.jpg" alt="" class="h-20 w-20 object-cover rounded-full p-1 m-3 cursor-pointer user-pic active-pic" onclick="showReview()">
+                        <img src="./img/user/2.jpg" alt="" class="h-20 w-20 object-cover rounded-full p-1 m-3 cursor-pointer user-pic "onclick="showReview()">
+                        <img src="./img/user/3.jpg" alt="" class="h-20 w-20 object-cover rounded-full p-1 m-3 cursor-pointer user-pic "onclick="showReview()">
+                        <img src="./img/user/5.jpg" alt="" class="h-20 w-20 object-cover rounded-full p-1 m-3 cursor-pointer user-pic "onclick="showReview()">
+                        <img src="./img/user/4.jpg" alt="" class="h-20 w-20 object-cover rounded-full p-1 m-3 cursor-pointer user-pic "onclick="showReview()">
+                      </div>
+                      <div class="grid place-items-center text-center m-auto md:w-4/5 min-h-[40vh]">
+                        <div class="user-text active-text">
+                          <p class="md:text-xl mb-6">
+                            " This should be used to tell a story and include any testimonials you might have about your product or service for your clients! "
+                          </p>
+                          <h3 class="font-bold text-base text-[#53AF03] mb-1">Markin Nesus</h3>
+                          <p class="font-semibold">IOS developer</p>
+                          
+                        </div>
+                        <div class="user-text">
+                          <p class="md:text-xl mb-6">
+                            " This should be used to tell a story and include any testimonials you might have about your product or service for your clients! "
+                          </p>
+                          <h3 class="font-bold text-base text-[#53AF03] mb-1">Vera Duncan</h3>
+                          <p class="font-semibold">Flutter developer</p>
+                          
+                        </div>
+                        <div class="user-text">
+                          <p class="md:text-xl mb-6">
+                            " This should be used to tell a story and include any testimonials you might have about your product or service for your clients! "
+                          </p>
+                          <h3 class="font-bold text-base text-[#53AF03] mb-1">Pirtle karol</h3>
+                          <p class="font-semibold">Android developer</p>
+                          
+                        </div>
+                        <div class="user-text">
+                          <p class="md:text-xl mb-6">
+                            " This should be used to tell a story and include any testimonials you might have about your product or service for your clients! "
+                          </p>
+                          <h3 class="font-bold text-base text-[#53AF03] mb-1">Mark Joe</h3>
+                          <p class="font-semibold">React developer</p>
+                          
+                        </div>
+                        <div class="user-text">
+                          <p class="md:text-xl mb-6">
+                            " This should be used to tell a story and include any testimonials you might have about your product or service for your clients! "
+                          </p>
+                          <h3 class="font-bold text-base text-[#53AF03] mb-1">Leila Domniuc</h3>
+                          <p class="font-semibold">Angular developer</p>
+                          
+                        </div>
+                      </div>
+                     </div>
+
+                  </div>
+
+                 </section>
+                 <!-- pricing -->
+                  <section id="pricing" class="">
+                    <div class="container py-6 md:py-20">
+                      <div class="text-center  mb-20" >
+                        <h4 class="text-lg font-bold text-[#53AF03] mb-4">
+                          Pricing
+                        </h4>
+                        <h1 class="text-4xl font-bold mb-4 md:text-3xl">
+                          Get In Reasonable Price
+                        </h1>
+                        <!-- Rounded Switch Button -->
+                         <div class="mt-4 flex items-center justify-center gap-5">
+                          <p></p>
+                          <button id="month" class=" bg-[#53AF03] py-2 px-8 rounded-2xl font-bold text-white hover:text-[#53AF03] hover:ease-in hover:duration-500 border-2 hover:border-[#d9ffb8] hover:shadow-lg cursor-pointer hover:bg-white">
+                            Bill Monthly
+                           </button>
+                          <!-- <button id="toggleBtn">
+                           <div>
+                              <label id="toggleBtn" class="cursor-pointer relative inline-block w-20 h-8 rounded-full">
+                               <input type="checkbox"  class="peer opacity-0 w-0 h-0">
+                                <span class="absolute top-0 right-0 bottom-0 left-0  border border-solid border-gray-400 rounded-full duration-300 before:content-[''] before:absolute before:w-6 before:h-6 before:left-1 before:bottom-1 before:rounded-full before:bg-gray-400 before:duration-300 peer-checked:before:translate-x-12 peer-checked:before:bg-[#53AF03]"> </span>
+                             </label>
+                           </div>
+                        </button> -->
+                          <!-- <p></p> -->
+                          <!-- <button id="year" class=" bg-[#53AF03] py-2 px-8 rounded-2xl font-bold text-white hover:text-[#53AF03] hover:ease-in hover:duration-500 border-2 hover:border-[#d9ffb8] hover:shadow-lg cursor-pointer hover:bg-white">
+                            Bill Anually
+                           </button> -->
+
+                         </div>
+                         <!-- Cart Front -->
+                          <div id="cartFront" class="">
+                        <div class=" grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                          <!-- card 1 -->
+                          <div class="cart relative h-auto w-auto p-8">
+                            <!-- front side -->
+                            <div id="cart-front" class="front px-7 py-11 rounded-2xl border border-solid border-gray-500 h-full w-full ">
+                              <div class="relative">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                       20 <span class="text-sm font-normal tracking-widest">/per month</span>
+                                </p>
+                              </div>
+                              <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3 text-left">Basic</h3>
+                                <p class="leading-relaxed text-left">For Beginner who want to Scale Business Globaly</p>
+                                
+                              </div>
+                              <ul class="space-y-4 pb-10 ">
+                                <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4"> Expense Management</span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Card Management    </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Bookmark Function  </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Instant Statistics </span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Accounting System  </span></li>
+                               </ul>
+                               <button class="w-full px-9 py-3 bg-gray-900 rounded-md text-white font-semibold capitalize hover:bg-[#53AF03]   transition-all ease-in duration-500">Get Started</button>
+                            </div>
+                             
+                           </div>
+                           <!-- card 2 -->
+                           <div class="cart relative h-auto w-auto p-8">
+                            <!-- front side -->
+                            <div id="cart-front" class="front px-7 py-11 rounded-2xl border border-solid border-gray-500 h-full w-full ">
+                              <div class="relative">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                       50 <span class="text-sm font-normal tracking-widest">/per month</span>
+                                </p>
+                              </div>
+                              <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3 text-left">Standard</h3>
+                                <p class="leading-relaxed text-left">For Beginner who want to Scale Business Globaly</p>
+                                
+                              </div>
+                              <ul class="space-y-4 pb-10 ">
+                                <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4"> Expense Management</span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Card Management    </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Bookmark Function  </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Instant Statistics </span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Accounting System  </span></li>
+                               </ul>
+                               <button class="w-full px-9 py-3 bg-gray-900 rounded-md text-white font-semibold capitalize hover:bg-[#53AF03]   transition-all ease-in duration-500">Get Started</button>
+                            </div>
+                             
+                           </div>
+                          
+                           <!-- card 3-->
+                           <div class="cart relative h-auto w-auto p-8">
+                            <!-- front side -->
+                            <div id="cart-front" class="front px-7 py-11 rounded-2xl border border-solid border-gray-500 h-full w-full ">
+                              <div class="relative">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                       100 <span class="text-sm font-normal tracking-widest">/per month</span>
+                                </p>
+                              </div>
+                              <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3 text-left">Premium</h3>
+                                <p class="leading-relaxed text-left">For Beginner who want to Scale Business Globaly</p>
+                                
+                              </div>
+                              <ul class="space-y-4 pb-10 ">
+                                <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4"> Expense Management</span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Card Management    </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Bookmark Function  </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Instant Statistics </span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Accounting System  </span></li>
+                               </ul>
+                               <button class="w-full px-9 py-3 bg-gray-900 rounded-md text-white font-semibold capitalize hover:bg-[#53AF03]   transition-all ease-in duration-500">Get Started</button>
+                            </div>
+                             
+                           </div>
+                          
+
+
+
+                          
+
+                        </div>
+                      </div>
+                         <!-- Cart Back -->
+                          <div id="cartBack" class="hidden">
+                         <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                          <!-- card 1 -->
+                          <div class="cart relative h-auto w-auto p-8">
+                            <!-- front side -->
+                            <div id="cart-front" class="front px-7 py-11 rounded-2xl border border-solid border-gray-500 h-full w-full ">
+                              <div class="relative">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                       120 <span class="text-sm font-normal tracking-widest">/per Year</span>
+                                </p>
+                              </div>
+                              <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3 text-left">Basic</h3>
+                                <p class="leading-relaxed text-left">For Beginner who want to Scale Business Globaly</p>
+                                
+                              </div>
+                              <ul class="space-y-4 pb-10 ">
+                                <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4"> Expense Management</span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Card Management    </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Bookmark Function  </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Instant Statistics </span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Accounting System  </span></li>
+                               </ul>
+                               <button class="w-full px-9 py-3 bg-gray-900 rounded-md text-white font-semibold capitalize hover:bg-[#53AF03]   transition-all ease-in duration-500">Get Started</button>
+                            </div>
+                             
+                           </div>
+                           <!-- card 2 -->
+                           <div class="cart relative h-auto w-auto p-8">
+                            <!-- front side -->
+                            <div id="cart-front" class="front px-7 py-11 rounded-2xl border border-solid border-gray-500 h-full w-full ">
+                              <div class="relative">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                       150 <span class="text-sm font-normal tracking-widest">/per Year</span>
+                                </p>
+                              </div>
+                              <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3 text-left">Standard</h3>
+                                <p class="leading-relaxed text-left">For Beginner who want to Scale Business Globaly</p>
+                                
+                              </div>
+                              <ul class="space-y-4 pb-10 ">
+                                <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4"> Expense Management</span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Card Management    </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Bookmark Function  </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Instant Statistics </span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Accounting System  </span></li>
+                               </ul>
+                               <button class="w-full px-9 py-3 bg-gray-900 rounded-md text-white font-semibold capitalize hover:bg-[#53AF03]   transition-all ease-in duration-500">Get Started</button>
+                            </div>
+                             
+                           </div>
+                          
+                           <!-- card 3-->
+                           <div class="cart relative h-auto w-auto p-8">
+                            <!-- front side -->
+                            <div id="cart-front" class="front px-7 py-11 rounded-2xl border border-solid border-gray-500 h-full w-full ">
+                              <div class="relative">
+                                <p class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                       500 <span class="text-sm font-normal tracking-widest">/per Year</span>
+                                </p>
+                              </div>
+                              <div class="py-10">
+                                <h3 class="text-xl font-bold pb-3 text-left">Premium</h3>
+                                <p class="leading-relaxed text-left">For Beginner who want to Scale Business Globaly</p>
+                                
+                              </div>
+                              <ul class="space-y-4 pb-10 ">
+                                <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4"> Expense Management</span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Card Management    </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Bookmark Function  </span></li>
+                                 <li class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Instant Statistics </span></li>
+                                 <li  class="flex  items-center justify-start"><i class='bx bx-bookmarks text-[#53AF03] text-lg' ></i><span class="pl-4">Accounting System  </span></li>
+                               </ul>
+                               <button class="w-full px-9 py-3 bg-gray-900 rounded-md text-white font-semibold capitalize hover:bg-[#53AF03]   transition-all ease-in duration-500">Get Started</button>
+                            </div>
+                             
+                           </div>
+                          
+
+
+
+                          
+
+                        </div>
+                      </div>
+                      </div>
+
+                    </div>
+
+                  </section>
+                <!-- Blog -->
+                <section id="blog" class="">
+                  <div class="container py-10 md:py-20">
+                    <div class="text-center  mb-20" >
+                      <h4 class="text-lg font-bold text-[#53AF03] mb-4">
+                        Innovation And Quality Improvement 
+                      </h4>
+                      <h1 class="text-4xl font-bold mb-4 md:text-3xl">
+                        Latest Updates, Solutions And Company News
+                      </h1>
+                      
+                    </div>
+                    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                      <!-- card - 1 -->
+                       <div>
+                       <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog/1.png" class="lg:h-full lg:w-full hover:scale- transition duration-300 ease-in-out " alt="">
+                       </div>
+                       <div>
+                           <div class="flex items-center gap-5 py-5">
+                            <p>30 August 2024 </p>
+                            <p>1 min read</p>
+                           </div>
+                       </div>
+                       <a href="#blog" class="text-2xl font-bold underline hover:text-[#53AF03] hover:no-underline transition duration-300 ease-out">
+                        Four Ways to cheer yourself up on Blue Monday!
+                       </a>
+                       <p class="leading-relaxed my-5 ">On the second edition of Serious Bussibess, Inc. editor jim Ledbetter and Fusion Senior editor Salmon debate...</p>
+
+    
+                       <a href="#blog" class="inline-block font-bold hover:text-[#53AF03] transition duration-300 ease-out">
+                        <span class="">Read more</span>
+                       </a>
+                      </div>
+                      <!-- card - 2 -->
+                        <div>
+                          <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                               <img src="./img/blog/2.webp" class="lg:h-full lg:w-full hover:scale- transition duration-300 ease-in-out " alt="">
+                          </div>
+                          <div>
+                              <div class="flex items-center gap-5 py-5">
+                               <p>30 August 2024 </p>
+                               <p>1 min read</p>
+                              </div>
+                          </div>
+
+                          <a href="#blog" class="text-2xl font-bold underline hover:text-[#53AF03] hover:no-underline transition duration-300 ease-out">
+                            How to Organize Your budget for Maximum Productivity ?
+                           </a>
+                           <p class="leading-relaxed my-5 ">Global provider connected products for consumers, and enterprises worldwide, supply chain control is everything...</p>
+
+                          <a href="#blog" class="inline-block font-bold hover:text-[#53AF03] transition duration-300 ease-out">
+                           <span class="">Read more</span>
+                          </a>
+                         </div>
+                      <!-- card - 3 -->
+                      <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                             <img src="./img/blog/3.jpg" class="lg:h-full lg:w-full hover:scale- transition duration-300 ease-in-out " alt="">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                             <p>30 August 2024 </p>
+                             <p>1 min read</p>
+                            </div>
+                        </div>
+                        <a href="#blog" class="text-2xl font-bold underline hover:text-[#53AF03] hover:no-underline transition duration-300 ease-out">
+                         Should Small Businesses Be Entitled to System ?
+                        </a>
+                        <p class="leading-relaxed my-5 ">Our team provides provides skilled & experienced managers who know tha intricacies of this vertical and focus...</p>
+     
+                        <a href="#blog" class="inline-block font-bold hover:text-[#53AF03] transition duration-300 ease-out">
+                         <span class="">Read more</span>
+                        </a>
+                       </div>   
+                     </div>
+
+                  </div>
+                
+
+                </section>
+
+            </main>                    
+           <!-- main End -->
+            <!-- footer Start -->
+          <footer class="w-[100%] bg-gray-50   pt-12 flex flex-col md:flex-row flex-wrap justify-between rounded-t-3xl   ">
+
+            <div class="w-[100%]   flex flex-col  justify-evenly p-8 md:flex-row md:px-10 " id="contact">
+                <!-- start 1st column -->
+                <div class="w-[100%]  flex flex-wrap flex-col text-lg md:w-[40%] "> 
+                    <p>
+                        Corporate Office - B/173, Shruti Kunj, PC Colony Road Lohia Nagar, Kankarbagh,<br>Patna, Bihar 800020, INDIA.
+                    </p>
+                    <p class="pt-4">
+                        Training Center - Alakh House, SBI Officers Colony, mount Carmel school NC:105, near Gayatri mandir, opposite lohiya nagar, Kankarbagh,<br>Patna, Bihar 800020, INDIA.
+                    </p>
+                    <div class="flex pt-4">
+                        <i class="ri-phone-line"></i>
+                        <p class="pl-4">
+                            +91 9693243217</p>
+                    </div>
+                    <div class="flex pt-1">
+                        <i class="ri-mail-line"></i>
+                        <p class="pl-4">
+                            info@codingage.biz</p>
+                    </div>
+                    <div class="flex items-center text-center pt-4 cursor-pointer">
+                        <a href="https://www.facebook.com/hellocodingage" target="_blank">
+                        <div class="w-8 h-8 bg-gray-300 rounded-full text-gray-700 text-2xl hover:bg-blue-700 hover:text-white transition-all ease-out duration-500">
+                            <i class="ri-facebook-fill"></i>
+                           
+                        </div>
+                        </a>
+                        <a href="https://x.com/" target="_blank">
+                        <div class="w-8 h-8 ml-4 bg-gray-300 rounded-full text-gray-700 text-2xl hover:bg-black hover:text-white transition-all ease-out duration-500">
+                            <i class="ri-twitter-x-fill"></i>
+                        </div>
+                        </a>
+                        <a href="https://www.instagram.com/codingage/" target="_blank">
+                        <div class="w-8 h-8 ml-4 bg-gray-300 rounded-full text-gray-700 text-2xl hover:bg-pink-900 hover:text-white transition-all ease-out duration-500">
+                            <i class="ri-instagram-line"></i>
+                        </div>
+                        </a>
+                        <a href="https://www.linkedin.com/company/codingage/" target="_blank">  
+                        <div class="w-8 h-8 ml-4 bg-gray-300 rounded-full text-gray-700 text-2xl hover:bg-blue-500 hover:text-white transition-all ease-out duration-500">
+                            <i class="ri-linkedin-line"></i>
+                        </div>
+                        </a>     
+                    </div>
+
+                    
+                </div> 
+               <!-- end 1st column -->
+                <!-- start 2nd column -->
+            <div class=" flex flex-wrap flex-col text-lg pt-6 " >
+                <div>
+                    <p class=" text-2xl font-normal md:text-3xl">Products
+                    </p>
+                   <div class="w-12 h-1 border-b-4 border-[#53AF03] pt-2 rounded md:mt-4 ">
+                   </div>
+                </div>
+                  
+            
+                <div class="mt-4 text-xl font-serif cursor-pointer flex flex-col">
+                    <a  href="https://www.schooldash.in/">Schooldash</a>
+                    <a  href="https://www.aintrie.com/">Aintrie</a>
+                    <a  href="https://codingage.in/">Coding Age</a>
+                    <a  href="https://yocoder.in/">Yocoder</a>
+                    <a  href="https://www.schooldash.in/">Fees Management</a>
+                    <a  href="https://www.schooldash.in/">Report Card</a>
+
+            
+               </div>
+            </div>
+                <!-- end 2nd column -->
+                 <!-- start 3rd column -->
+                 <div class=" flex flex-wrap flex-col text-lg pt-6" >
+                    <div>
+                        <p class=" text-2xl font-normal md:text-3xl">About Us
+                        </p>
+                       <div class="w-12 h-1 border-b-4 border-[#53AF03] pt-2 rounded md:mt-4 ">
+                    </div>
+                    <div class="mt-4 text-xl font-serif cursor-pointer flex flex-col">
+                        <a  href="https://www.schooldash.in/">Contact Us</a>
+                        <a  href="https://www.aintrie.com/">Privacy Policy</a>
+                        <a  href="https://codingage.in/">Terms and Conditions</a>
+                   </div>
+                </div >   
+                    <!-- end 3rd column -->
+                 
+             </div>
+
+           </div>
+           <hr class="text-cyan-600 pt-6">
+           <p class=" w-full text-center flex items-center justify-center h-14 bg-gray-200">© 2024 @codingage | All Rights Reserved</p>
+
+          
+          </footer>
+            <!-- footer End -->
+
+           <script>
+                const hamburger=document.querySelector('#hamburger');
+                const menu=document.querySelector('#menu');
+                const hlink=document.querySelectorAll('#hlink');
+                const bx_menu=document.querySelector('.bx-menu');
+                const navbtn=document.querySelector('#navbtn');
+                hamburger.addEventListener("click",()=>{
+                  menu.classList.toggle('hidden');
+                  bx_menu.classList.toggle('bx-x');
+                })
+                navbtn.addEventListener("click",()=>{
+                  menu.classList.toggle('hidden');
+                  bx_menu.classList.toggle('bx-x');
+                })
+                hlink.forEach(element => {
+                  element.addEventListener('click',()=>{
+                    menu.classList.toggle('hidden');
+                    bx_menu.classList.toggle('bx-x');
+
+                  })
+                });
+
+                // Testimonial
+                const usertexts=document.getElementsByClassName("user-text");
+                const userpics=document.getElementsByClassName("user-pic");
+                function showReview(){
+                  for(userpic of userpics){
+                    userpic.classList.remove("active-pic");
+                  }
+                  for(usertext of usertexts){
+                    usertext.classList.remove("active-text");
+                  }
+
+                  let i=Array.from(userpics).indexOf(event.target);
+
+                  userpics[i].classList.add('active-pic');
+                  usertexts[i].classList.add('active-text');
+
+
+                }
+                const month=document.getElementById('month'); 
+                const year=document.getElementById('year'); 
+                const cartFront=document.getElementById('cartFront');
+                const cartBack=document.getElementById('cartBack');
+
+                // toggleBtn.addEventListener('click', ()=>{
+                //   cartFront.classList.toggle('hidden');
+                //   cartBack.classList.remove('hidden');
+                  
+                // })
+              
+                month.addEventListener('click',function(){
+                  console.log(cartFront.className);
+                   
+                    if(cartFront.className === ''){
+                           cartFront.classList.add('hidden');
+                           cartBack.classList.remove('hidden');
+                           month.innerHTML='Bill Monthly';
+                           
+                    }
+                    else{
+                           cartBack.classList.add('hidden');
+                           cartFront.classList.remove('hidden');
+                           month.innerHTML='Bill Anually';
+                    }
+                    
+  
+                });
+
+
+
+           </script>
+
+</body>
+</html>
+<!-- 
+   //Testimonials
+   <section id="testimonials">
+    <div class="container py-20">
+
+    <div class="text-center  mb-20" >
+      <h4 class="text-lg font-bold text-[#53AF03] mb-4">
+        Testimonials
+      </h4>
+      <h1 class="text-4xl font-bold mb-4 md:text-3xl">
+        We have worked with thousands of amazing people
+      </h1>
+    
+    </div>
+    //moving cart
+    <marquee behavior="" direction="left"> 
+    //card
+    <div class="flex overflow-x-auto space-x-8 animate-loop-scroll ">
+      //card1
+      <div class="bg-gray-50 w-[360px] p-8 rounded-xl ">
+       
+         <p class="text-base leading-7 text-left mb-6">
+          “The school management app has revolutionized how we handle administrative tasks. It’s user-friendly and efficient, allowing more time for meaningful interactions with students. A game-changer for educators!”
+         </p>
+      
+       <div class="flex items-center  ">
+         <img src="./img/profile.jpg" alt="" class="h-12 w-12 rounded-full object-cover">
+         <div class="ml-8">
+           <h4 class=" text-lg font-semibold pb-1">Daniel Lee</h4>
+           <h5>Teacher</h5>
+         </div>
+       </div>
+      </div>
+       //card2
+       <div class="bg-gray-50 w-[360px] p-8 rounded-xl ">
+       
+        <p class="text-base leading-7 text-left mb-6">
+          “I can’t express enough how helpful the school management app has been for me as a parent. It’s a one-stop solution for all school-related information. I feel more connected and involved in my child’s education.”
+        </p>
+     
+      <div class="flex items-center  ">
+        <img src="./img/profile.jpg" alt="" class="h-12 w-12 rounded-full object-cover">
+        <div class="ml-8">
+          <h4 class=" text-lg font-semibold pb-1">Michael Davis</h4>
+          <h5>Parent</h5>
+        </div>
+      </div>
+     </div>
+        //card3
+        <div class="bg-gray-50 w-[360px] p-8 rounded-xl ">
+       
+          <p class="text-base leading-7 text-left mb-6">
+           “The school management app has revolutionized how we handle administrative tasks. It’s user-friendly and efficient, allowing more time for meaningful interactions with students. A game-changer for educators!”
+          </p>
+       
+        <div class="flex items-center  ">
+          <img src="./img/profile.jpg" alt="" class="h-12 w-12 rounded-full object-cover">
+          <div class="ml-8">
+            <h4 class=" text-lg font-semibold pb-1">Daniel Lee</h4>
+            <h5>Teacher</h5>
+          </div>
+        </div>
+       </div>                
+        //card4
+        <div class="bg-gray-50 w-[360px] p-8 rounded-xl ">
+       
+          <p class="text-base leading-7 text-left mb-6">
+           “The school management app has revolutionized how we handle administrative tasks. It’s user-friendly and efficient, allowing more time for meaningful interactions with students. A game-changer for educators!”
+          </p>
+       
+        <div class="flex items-center  ">
+          <img src="./img/profile.jpg" alt="" class="h-12 w-12 rounded-full object-cover">
+          <div class="ml-8">
+            <h4 class=" text-lg font-semibold pb-1">Michael Davis</h4>
+            <h5>Parent</h5>
+          </div>
+        </div>
+       </div>
+   
+  </marquee>
+
+   </div>
+</section>
+-->
+
+
+
+                             <!-- back side -->
+                             <!-- <div id="front-1-back" class="back px-7 py-11 rounded-2xl border border-solid border-gray-500 h-full w-full absolute top-0 left-0 hidden">
+                                   Back Side
+                              </div> -->
+
+
+<!-- 
+<div id="front-1-front" class="front px-7 py-11 rounded-2xl border border-solid border-gray-500 h-full w-full flex flex-col items-center justify-start">
+                               <div class="">
+                                 <h1 class="text-2xl font-bold">Basic</h1>
+                                 <h3 class="text-lg  font-semibold">For Beginner who want to Scale Business Globaly</h3>
+                                 <ul class="gap-10">
+                                  <li ><i class='bx bx-right-arrow-circle'></i> Expense Management</li>
+                                   <li><i class='bx bx-right-arrow-circle'></i>Card Management</li>
+                                   <li><i class='bx bx-right-arrow-circle'></i>Bookmark Function</li>
+                                   <li><i class='bx bx-right-arrow-circle'></i>Instant Statistics</li>
+                                   <li><i class='bx bx-right-arrow-circle'></i>Accounting System</li>
+                                 </ul>
+                                </div>
+                             </div> -->
